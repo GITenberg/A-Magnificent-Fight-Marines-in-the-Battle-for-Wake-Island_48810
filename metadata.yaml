@@ -1,4 +1,8 @@
 _repo: A-Magnificent-Fight-Marines-in-the-Battle-for-Wake-Island_48810
+_version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 48810-h/images/cover.jpg
 creator:
   author:
     agent_name: Cressman, Robert
@@ -6,6 +10,8 @@ creator:
     gutenberg_agent_id: '44980'
     url: http://www.gutenberg.org/2009/agents/44980
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/48810#A-Magnificent-Fight-Marines-in-the-Battle-for-Wake-Island
 gutenberg_bookshelf: World War II
 gutenberg_issued: '2015-04-27'
 gutenberg_type: Text
