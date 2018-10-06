@@ -1,219 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <pgterms:ebook rdf:about="ebooks/48810">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf2ffb2639e6e454f941664ffc07bd540">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>United States. Marine Corps -- History -- World War, 1939-1945</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Ne62134c4d2e84a4ca0603193cdb3cb66">
-        <rdf:value>World War II</rdf:value>
-        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-      </rdf:Description>
-    </pgterms:bookshelf>
-    <dcterms:title>A Magnificent Fight: Marines in the Battle for Wake Island</dcterms:title>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-04-27</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-h.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5aee07fcf8ab40e48bc3b505d9d28005">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1573832</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:08</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc4338d38e7bd42678f03ec000eede944">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/44980">
-        <pgterms:name>Cressman, Robert</pgterms:name>
-        <pgterms:alias>Cressman, Robert J.</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N9ff669d1dad84bf5937129b26a7cdbfb">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:39.189645</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3399702</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1366e3ef478245729404f5e719db2005">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.epub.images">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N139be29ff70e436ebbec05db8e76f389">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1644082</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:35.114835</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N774e62f317f44da8b19af95fe06ddec8">
+      <rdf:Description rdf:nodeID="N3390715aff144e22a37d409d3a283455">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.rdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-28T08:32:00.155728</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-0.txt">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N79aba89503884089a850f46a3a9a02a9">
+          <rdf:Description rdf:nodeID="N034ecf2f685849068a6b86d49305909a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12281</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:02</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164855</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-04-27</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:23.213572</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N89203d35c73b4639be8f65759c66787e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3399744</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nde663065dff842d6aa9de353200426e8">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>World War II</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N0059db6671ae4f2bb4e2d9f838c20276">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154572</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:20.734648</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Neec19c0625ce438abb65322ef6024d27">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7d2e1998e7f54848aff7b403514890d3">
+        <rdf:value>United States. Marine Corps -- History -- World War, 1939-1945</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:19.601659</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1644112</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N31e516040cec4470a9ae853e155b1692">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:08</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3b96cfe37dd64ef49b92232eaf526824">
+          <rdf:Description rdf:nodeID="Nf2572ba5a8d3447eb96893cedac8aaa2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:08</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61899</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne89f97c7dc92400ca8a349ec609cec1c">
+          <rdf:Description rdf:nodeID="N85c3950f5a674580b9294b9d8fedfbb8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2648c2ab6316440ea26324589115ef07">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Wake Island, Battle of, Wake Island, 1941</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489515</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:40.760579</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48810/pg48810.cover.small.jpg">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9303850871d84dfb965f13edda8b9259">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc440>Marines in World War II, Commemorative Series</pgterms:marc440>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48810/pg48810.cover.medium.jpg">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N64ffc04fc22e485bae88e79cf64ac5e4">
+          <rdf:Description rdf:nodeID="N0621fc38ead44ce984948647c980df85">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:40.962569</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13178</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2560</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:24.676548</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <pgterms:marc440>Marines in World War II, Commemorative Series</pgterms:marc440>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-h/48810-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7e75adbd763940f3a3ec3dc69ad4517e">
+          <rdf:Description rdf:nodeID="Neccae2c8232649199a982aaede877cfa">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192652</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:06</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-0.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T06:41:19.390399</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164855</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12295</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N302c6b828cd64259bbd55f88031963ea">
+          <rdf:Description rdf:nodeID="N484cc49c236940ae8d4082a6920f46a8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:02</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N936547180aae4068891c3ded93c8959a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Wake Island, Battle of, Wake Island, 1941</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/48810/48810-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1573832</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N22fca394bd2c44bdbe7853a19e82c974">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-27T10:40:08</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7b05d6efae2f4e1a85b6e1966fc3ba5c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2d6336d6e07e46a3ab20986c2c5d3698">
+      <rdf:Description rdf:nodeID="N4fcc191fad5e4d73a5d19750c87c0a44">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>D731</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/44980">
+        <pgterms:alias>Cressman, Robert J.</pgterms:alias>
+        <pgterms:name>Cressman, Robert</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>A Magnificent Fight: Marines in the Battle for Wake Island</dcterms:title>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154515</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48810.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489592</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:24.619550</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N25274053a53a4dc8a5e453d876184289">
+          <rdf:Description rdf:nodeID="N73c261f8d0ae47f088caa58b1bee3227">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:36.502784</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48810/pg48810.cover.small.jpg">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2563</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48810/pg48810.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13178</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:54:24.732558</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne683a0f4806d4e7f8c7f0edef3149f35">
+          <rdf:Description rdf:nodeID="Nd2fdf867c2524015a030a8b30c234e87">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T04:01:40.877580</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48810"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
